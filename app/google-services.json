@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "657374709898",
+    "firebase_url": "https://roomrokad.firebaseio.com",
+    "project_id": "roomrokad",
+    "storage_bucket": "roomrokad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:657374709898:android:bbf6ec1c181c6c2c",
+        "android_client_info": {
+          "package_name": "com.sadda.adda.panchratan.saddaadda"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "657374709898-n0mea2lg9ku90ij98gpgk9pppu5cvs6e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbtKibJ22a1FPe44KDighIzQweBrY2yFQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

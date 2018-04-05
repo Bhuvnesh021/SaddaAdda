@@ -1,0 +1,64 @@
+<resources>
+    <string-array name="items">
+        <item>Add</item>
+        <item>Remove</item>
+        <item>Show all</item>
+    </string-array>
+    <string-array name="categories">
+        <item>Select a Category</item>
+        <item>Vegitables</item>
+        <item>Grocery</item>
+        <item>Bill Pay</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="valuesOfBillPay">
+        <item>Select a item</item>
+        <item>Electricity Bill</item>
+        <item>News Paper Bill</item>
+        <item>Maintenance Bill</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="valuesOfGrocery">
+        <item>Select a item</item>
+        <item>Soya Oil</item>
+        <item>Salt</item>
+        <item>Aata</item>
+        <item>Chana Dal</item>
+        <item>Hair Oil</item>
+        <item>Toor Dal</item>
+        <item>Moong Dal</item>
+        <item>Masala</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="valuesOfVegitables">
+        <item>Select a item</item>
+        <item>Poteto</item>
+        <item>Lady Fingure</item>
+        <item>Tameto</item>
+        <item>Bringle</item>
+    </string-array>
+    <string-array name="quantity">
+        <item>Select quantity</item>
+        <item>500gm</item>
+        <item>1 Kg.</item>
+        <item>2 Kg.</item>
+        <item>3 Kg.</item>
+    </string-array>
+    <string name="app_name">Move On</string>
+    <string name="userid_password_verifier_php">http://demoappbhuvnesh.000webhostapp.com/demo/userid_password_verifier.php</string>
+    <string name="post_comment_url">http://demoappbhuvnesh.000webhostapp.com/demo/add_info.php</string>
+    <string name="add_item_url">http://demoappbhuvnesh.000webhostapp.com/demo/add_items.php</string>
+    <string name="action_logout">Logout</string>
+    <string name="navigation_drawer_open">drawer_open</string>
+    <string name="navigation_drawer_close">drawer_close</string>
+    <string name="FCM_PREFS">fcm_prefs</string>
+    <string name="FCM_TOKEN">fcm_token</string>
+    <string name="stay_signed_in">stay_signed_in</string>
+    <string name="isStaySignedInChecked">isStaySignedInChecked</string>
+    <string name="demo_comment">The layout manager decides how the data in the RecyclerView is displayed. The recycler view library provides the following build-in layout managers.</string>
+    <string name="userCredentials">userCredentials</string>
+    <string name="get_all_comments_php">http://demoappbhuvnesh.000webhostapp.com/demo/json_get_data.php</string>
+    <string name="get_items_list">http://demoappbhuvnesh.000webhostapp.com/demo/added_items.php</string>
+    <string name="get_previous_comments">get_previous_comments</string>
+
+</resources>

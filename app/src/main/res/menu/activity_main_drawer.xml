@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:checkableBehavior="single">
+    <item android:id="@+id/home_fragment" android:title="Home" android:icon="@drawable/home_fragment"/>
+    <item android:id="@+id/add_content" android:title="Add" android:icon="@drawable/add_content"/>
+    <item android:id="@+id/show_statistics" android:title="Show statistics" android:icon="@drawable/statistics"/>
+    <item android:id="@+id/post_comment" android:title="Post a Comment" android:icon="@drawable/comment"/>
+    <item android:id="@+id/show_all_comment" android:title="Show All Comments" android:icon="@drawable/comment_list"/>
+</group>
+    <item android:title="Other">
+        <menu>
+            <item
+                android:id="@+id/nav_about_us"
+                android:title="About Us" />
+            <item
+                android:id="@+id/nav_privacy_policy"
+                android:title="Policy Privacy" />
+            <item
+                android:id="@+id/logout_action"
+                android:title="Logout" />
+        </menu>
+    </item>
+</menu>

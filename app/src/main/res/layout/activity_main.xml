@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgro"
+
+    >
+
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txt_small_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="40sp"
+        android:text="We Are Happy!"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:id="@+id/txt_small_content"
+        android:layout_above="@+id/rl_userid"
+        android:layout_centerHorizontal="true"
+        android:text="Now its time to move on."
+        android:layout_marginBottom="@dimen/dimen_40"
+        />
+
+    <RelativeLayout
+        android:id="@+id/rl_userid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:padding="10dp">
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/til_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/user_name_ET"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="USER NAME"
+                android:text="bhuvnesh021@panchratan.com"
+                android:inputType="text" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/til_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/til_username">
+
+            <EditText
+                android:id="@+id/password_ET"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="PASSWORD"
+                android:inputType="textPassword"
+                android:text="7891509113"/>
+        </android.support.design.widget.TextInputLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_below="@+id/rl_userid"
+
+        >
+        <CheckBox
+            android:id="@+id/check_staysigned"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stay signed in"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+
+            />
+<Button
+    android:id="@+id/floating_login"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Login"
+    android:background="@drawable/edit_text_background"
+    android:layout_alignParentBottom="true"
+
+    />
+        <TextView
+            android:id="@+id/txt_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_below="@+id/floating_login"
+            android:text="Login"
+            android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+</RelativeLayout>
+</RelativeLayout>
